@@ -35,3 +35,67 @@ user_<%= n %>:
   activated: true
   activated_at: <%= Time.zone.now %>
 <% end %>
+
+followed:
+  id: 1
+  name: test1_user
+  email: test1@example.gov
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+follower1:
+  id: 2
+  name: test2_user
+  email: test2@example.gov
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+follower2:
+  id: 3
+  name: test3_user
+  email: test3@example.gov
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+follower3:
+  id: 4
+  name: test4_user
+  email: test4@example.gov
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+followed_user:
+  id: 11
+  name: hoge tarou
+  email: hoge@example.gov
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+follower_user1:
+  id: 12
+  name: wawa tarou
+  email: wawa@example.gov
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+follower_user2:
+  id: 13
+  name: foo tarou
+  email: foo@example.gov
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+follower_user3:
+  id: 14
+  name: boo tarou
+  email: boo@example.gov
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
